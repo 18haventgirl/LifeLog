@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir *)",
+      "Bash(gradlew.bat *)",
+      "Bash(exist *)",
+      "Bash(echo *)",
+      "Bash(mkdir *)",
+      "Bash(\"d:\\tools\\java\\bin\\java.exe\" *)",
+      "Bash(findstr *)",
+      "Bash(setx *)",
+      "Bash(set *)",
+      "Bash(\"%java_home%\\bin\\java.exe\" *)",
+      "Bash(powershell *)",
+      "Bash(curl *)",
+      "Bash(move *)",
+      "Bash(del *)",
+      "Bash(\"d:\\tools\\android\\sdk\\cmdline-tools\\latest\\bin\\sdkmanager.bat\" *)",
+      "Bash(%i *)",
+      "Bash(do *)",
+      "Bash(\"d:\\tools\\android\\sdk\\platform-tools\\adb.exe\" *)",
+      "Bash(\"d:\\tools\\android\\sdk\\cmdline-tools\\latest\\bin\\avdmanager.bat\" *)",
+      "Bash(\"d:\\tools\\android\\sdk\\emulator\\emulator.exe\" *)",
+      "Bash(timeout *)",
+      "Bash(tasklist)",
+      "Bash(echo.)",
+      "Bash(rmdir *)",
+      "Bash(\"d:\\tools\\android-studio.exe\" *)",
+      "Bash(start *)",
+      "Bash(git init)",
+      "Bash(git add *)"
+    ]
+  },
+  "$version": 3
+}

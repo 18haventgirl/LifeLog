@@ -12,16 +12,6 @@
 
 ---
 
-## ✨ 核心卖点
-
-- 🔒 **纯本地存储** — 零隐私泄露，不联网不注册，数据全在你手机上
-- 🆓 **完全免费** — 无广告，无内购
-- 📊 **完整回顾体系** — 日报/周报/月报全覆盖
-- 🎯 **全场景分类** — 14 个预设分类 + 自定义分类和活动
-- ⏱️ **三种记录方式** — 计时器、手动补录、快速打点
-- 🎨 **Material Design 3** — 精致动效，支持深色模式
-
----
 
 ## 📸 功能概览
 
@@ -138,28 +128,6 @@ app/src/main/java/com/lifelog/app/
 ```
 
 ---
-
-## 📊 数据库设计
-
-### ER 关系
-
-```
-Category (1) ──→ (N) Activity (1) ──→ (N) Record
-    │                                        │
-    └──────────→ (N) Goal ←─────────────────┘
-```
-
-### 表结构
-
-| 表名 | 说明 | 关键字段 |
-|------|------|---------|
-| `categories` | 分类 | name, icon, color, isSystem |
-| `activities` | 活动 | name, categoryId (FK), icon |
-| `records` | 记录 | activityId (FK), startTime, endTime, durationSeconds, mood, tags, recordType |
-| `goals` | 目标 | activityId/categoryId (FK), goalType, targetMinutes, period |
-
----
-
 ## 🚀 快速开始
 
 ### 环境要求
@@ -168,76 +136,11 @@ Category (1) ──→ (N) Activity (1) ──→ (N) Record
 - **Android SDK**: API 34
 - **Android Studio**: Ladybug 或更高版本（推荐）
 
-### 构建运行
-
-```bash
-# 克隆仓库
-git clone https://github.com/18haventgirl/LifeLog.git
-cd LifeLog
-
-# 用 Android Studio 打开项目，或命令行构建
-./gradlew assembleDebug
-
-# 安装到设备
-./gradlew installDebug
-```
-
----
-
 ## 📦 APK 下载
 
 前往 [Releases](https://github.com/18haventgirl/LifeLog/releases) 页面下载最新 APK。
 
 ---
-
-## 🎨 设计规范
-
-### 配色方案
-
-| 用途 | 颜色 | HEX |
-|------|------|-----|
-| 主色 | Blue 500 | `#3B82F6` |
-| 成功 | Green 500 | `#10B981` |
-| 警告 | Amber 500 | `#F59E0B` |
-| 错误 | Red 500 | `#EF4444` |
-| 背景 | Slate 50 | `#F8FAFC` |
-
-### 分类颜色
-
-| 分类 | 颜色 |
-|------|------|
-| 📚 学习 | `#3B82F6` |
-| 💼 工作 | `#8B5CF6` |
-| 🏃 运动健身 | `#10B981` |
-| 🎮 娱乐 | `#F59E0B` |
-| 🍜 饮食 | `#EF4444` |
-| 😴 睡眠 | `#6366F1` |
-| 🏠 生活杂务 | `#EC4899` |
-| 👥 社交通讯 | `#14B8A6` |
-| 🚗 交通出行 | `#F97316` |
-| 🧘 个人成长 | `#06B6D4` |
-| 🎨 兴趣爱好 | `#A855F7` |
-| 💊 医疗健康 | `#F43F5E` |
-| 😶 无效时间 | `#9CA3AF` |
-| 💻 电子设备 | `#64748B` |
-
----
-
-## 📋 开发路线
-
-- [x] Phase 1: 项目初始化 + Gradle + Hilt + Room + 主题
-- [x] Phase 2: 主页面框架 + BottomNavigation
-- [x] Phase 3: 记录页面 + 活动选择器 + 计时器
-- [x] Phase 4: 时间线 + 手动补录 + 快速打点
-- [x] Phase 5: 日报页面 + 饼图 + 甘特图
-- [x] Phase 6: 周报页面 + 堆叠柱状图
-- [x] Phase 7: 月报页面 + 热力图
-- [x] Phase 8: 目标系统 + 分类管理
-- [x] Phase 9: 设置页面 + 数据导出/备份
-- [x] Phase 10: 动画打磨 + 深色模式 + 自定义活动
-
----
-
 ## 📄 License
 
 ```

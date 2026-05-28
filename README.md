@@ -1,17 +1,3 @@
-# 📱 LifeLog — 人生日志，生活回顾与时间追踪
-
-> **帮你从"今天好像啥也没干"的浑浊状态，变成"今天原来做了这些事"的清醒状态。**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Android-8.0%2B-brightgreen" />
-  <img src="https://img.shields.io/badge/Kotlin-1.9-blue" />
-  <img src="https://img.shields.io/badge/Jetpack%20Compose-M3-purple" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow" />
-  <img src="https://img.shields.io/badge/Version-1.0.0-orange" />
-</p>
-
----
-
 
 ## 📸 功能概览
 
@@ -125,44 +111,4 @@ app/src/main/java/com/lifelog/app/
 │       └── settings/                      # 设置页
 ├── service/                               # TimerService, BootReceiver
 └── di/                                    # DatabaseModule, RepositoryModule, AppModule
-```
-
----
-## 🚀 快速开始
-
-### 环境要求
-
-- **JDK**: 17+
-- **Android SDK**: API 34
-- **Android Studio**: Ladybug 或更高版本（推荐）
-
-## 📦 APK 下载
-
-前往 [Releases](https://github.com/18haventgirl/LifeLog/releases) 页面下载最新 APK。
-
----
-## 📄 License
-
-```
-MIT License
-
-Copyright (c) 2026 LifeLog
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 ```
